@@ -1,0 +1,40 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #474b4f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #86c232;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* My Color Scheme */
+
+/* #61892f, #86c232, #222629, #474b4f, #686e70 */
