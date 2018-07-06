@@ -1,38 +1,35 @@
+/* General */
+
 html,
 body {
     padding: 0;
     margin: 0;
 }
 
+/* Navbar */
+
 ul {
     display: flex;
+    flex-direction: row;
+    /* default */
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #474b4f;
-}
-
-li {
-    float: left;
+    align-items: center;
+    height: 50px;
 }
 
 li a {
-    display: block;
     color: #86c232;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+ul li :hover:not(.active) {
+    color: #222629;
 }
 
 /* My Color Scheme */
