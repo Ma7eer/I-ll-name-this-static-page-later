@@ -35,6 +35,7 @@ ul {
 }
 
 li a {
+    /* color: white; */
     color: #86c232;
     text-decoration: none;
     font-size: 20px;
@@ -62,6 +63,15 @@ ul li a:hover:not(.active) {
     width: 100%;
     background-size: cover;
     z-index: -1;
+}
+
+p {
+    position: absolute;
+    margin-top: 480px;
+    text-align: center;
+    color: #86c232;
+    font-size: 50px;
+    opacity: 0.7;
 }
 
 /* My Color Scheme */
