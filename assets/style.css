@@ -10,6 +10,8 @@
 
 html {
     font-family: 'VT323', monospace;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navbar */
@@ -74,6 +76,16 @@ p {
     opacity: 0.7;
 }
 
+.second {
+    color: #86c232;
+    background-color: #474b4f;
+    margin: 0;
+    position: absolute;
+}
+
+.second-content {
+    margin: 0;
+}
 /* My Color Scheme */
 
 /* #61892f, #86c232, #222629, #474b4f, #686e70 */
